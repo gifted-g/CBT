@@ -1,0 +1,17 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "UseDevelopmentStorage=true",
+    "FUNCTIONS_WORKER_RUNTIME": "node",
+    "COSMOS_CONNECTION_STRING": "your_cosmos_db_connection_string_here",
+    "COMMUNICATION_SERVICES_CONNECTION_STRING": "your_communication_services_connection_string_here",
+    "SENDER_EMAIL": "noreply@agentoja.com",
+    "ADMIN_EMAIL": "info@agentoja.com",
+    "ADMIN_API_KEY": "your_secure_admin_api_key_here",
+    "SHOW_DETAILED_ERRORS": "true"
+  },
+  "Host": {
+    "CORS": "*",
+    "CORSCredentials": false
+  }
+}
